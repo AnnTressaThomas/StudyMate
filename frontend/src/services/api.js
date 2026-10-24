@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API_BASE = "https://studymate-backend-vrk0.onrender.com/api";
 
 // Generic helper function to handle API calls and errors
 async function request(endpoint, options = {}) {
